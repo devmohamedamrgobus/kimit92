@@ -1,0 +1,121 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+/* .box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: auto 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+} */
+
+/* .container {
+    width: 90%;
+    height: 50vh;
+  
+    margin: auto;
+} */
+
+/* .service {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 2.5%;
+} */
+/* .service-icon {
+    width: 20%;
+    height: 100%;
+    margin-top: 6%;
+    float: left;
+}
+
+.service-content {
+    width: 79%;
+    height: 100%;
+    float: left;
+} */
+
+.bg-red {
+    background: red;
+}
+.bg-blue {
+    background: blue;
+}
+.bg-green {
+    background: green;
+}
+.bg-yellow {
+    background: yellow;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+
+.f-l{
+    float: left;
+}
+
+.f-r{
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.our-secret {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}
+
+
+.our-secret-img {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.our-secret-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.our-secret-content {
+    box-sizing: border-box;
+    padding: 8% 3%;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.our-secret-content-data {
+    width: 90%;
+    height: 100%;
+}
+.our-secret-content-data h2 {
+    font-size: 27px;
+}
+.our-secret-content-data p {
+    line-height: 27px;
+}
+
+.our-secret-content-data ul li {
+    list-style-image: url("img/icon.png");
+}
+button {
+    margin-top: 7%;
+    padding: 15px 25px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 1%;
+    text-transform: uppercase;
+}
