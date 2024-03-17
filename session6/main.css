@@ -1,0 +1,110 @@
+/* .box {
+    width: 100px;
+    height: 100px;
+    background: goldenrod;
+    margin: 100px auto;
+    transition: 1s;
+} */
+
+/* .box:hover { */
+    /* transform: rotate(-360deg);
+    rotate: 360deg;
+    transform: scale(0.5,0.5);
+    scale: 2 2;
+    transform: skewX(50deg) ;
+    transform: translateX(-100px); */
+    /* transform: scale(2,2) ;
+    transform: rotate(360deg); */
+    /* scale: 2 2 ; */
+    /* rotate: 360deg; */
+/* } */
+
+/* 
+.blog {
+    width: 350px;
+    height: 450px;
+    background: red;
+    margin: 100px auto;
+}
+
+.blog:hover img{
+    rotate: 5deg;
+    scale: 1.2 1.2;
+}
+.blog-img {
+    overflow: hidden;
+    width: 100%;
+    height: 60%;
+    background: rosybrown;
+}
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.blog-content {
+    width: 100%;
+    height: 40%;
+    background: green;
+} */
+
+
+/* .box {
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    background: red;
+    animation: x 1s infinite;
+}
+
+@keyframes x {
+    0% {background: red;rotate: 360deg;}
+    20% {background: blue;scale: 2 2;}
+    40% {background: green;transform: skew(20deg , 20deg);}
+    60% {background: black;rotate: -350deg;}
+    80% {background: yellow;scale: 0.5 0.5;}
+    100% {background: white; rotate: 10deg;}
+} */
+/* .pointer {
+    width: 30px;
+    height: 50px;
+    margin: 100px auto;
+    border-radius: 45%;
+    border: 1px solid black;
+    position: relative;
+}
+.circle {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: 10%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    animation: 1s test infinite;
+}
+
+@keyframes test {
+    from {top:10%}
+    to {top:45%;opacity: 0;background: green;scale: 2 2;}
+} */
+
+.text {
+    /* 420px */
+    margin: auto;
+    width: 0px;
+    height: 70px;
+    font-size: 70px;
+    overflow: hidden;
+    animation: test 2s infinite steps(11);
+    text-wrap: nowrap;
+    border-right: 3px solid black;
+}
+
+@keyframes test {
+    from {width: 0px;}
+    to {width: 420px;}
+}
